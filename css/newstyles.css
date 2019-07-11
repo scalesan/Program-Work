@@ -1,0 +1,71 @@
+@media only screen and (min-width: 1068px) {
+  .hero {
+    width: 50% !important;
+  }
+
+  .hero-unit-final-frontier {
+    float: left !important;
+  }
+
+  .hero-unit-final-frontier .hero-image {
+    background-size: 800px 600px !important;
+    max-width: 620px;
+  }
+
+  .hero-copy {
+    width: 50% !important;
+    margin-left: 50px !important;
+  }
+
+  .hero-unit-moon-exploration .hero-image {
+    width: 800px !important;
+    height: 750px !important;
+    background-size: 700px 730px;
+  }
+
+  section.hero-unit-final-frontier,
+  section.hero-unit-moon-exploration {
+    height: 700px;
+    width: 1000px;
+  }
+
+  .hero-image {
+    width: 200px !important;
+  }
+
+  .timeline{
+    display: grid !important;
+    grid-template-columns: 2 !important;
+    grid-template-rows: 3 !important;
+  }
+
+  .a{
+
+  }
+}
+
+@media only screen and (max-width: 1067px) {
+   .box:first-child {
+    order: 1;
+  }
+
+  .box:nth-of-type(2) {
+  }
+
+  .box:nth-of-type(3) {
+    order: 4;
+    background-color:green
+  }
+
+  .box:nth-of-type(4) {
+    order: 3;
+  }
+
+  .box:nth-of-type(5) {
+    order: 2;
+  }
+
+  .box:nth-of-type(6) {
+    order: 1;
+  } */
+}
