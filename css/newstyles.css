@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1068px) {
+  a {
+    color: #fff;
+  }
   .hero {
     width: 50% !important;
   }
@@ -8,8 +11,8 @@
   }
 
   .hero-unit-final-frontier .hero-image {
-    background-size: 800px 600px !important;
-    max-width: 620px;
+    background-size: 800px 500px !important;
+    max-width: 50% !important;
   }
 
   .hero-copy {
@@ -18,54 +21,170 @@
   }
 
   .hero-unit-moon-exploration .hero-image {
-    width: 800px !important;
-    height: 750px !important;
-    background-size: 700px 730px;
+    max-width: 50% !important;
+    height: 700px !important;
+    background-size: 700px 630px !important;
   }
 
-  section.hero-unit-final-frontier,
+  section.hero-unit-final-frontier {
+    max-width: 40rem;
+    height: 600px;
+  }
   section.hero-unit-moon-exploration {
-    height: 700px;
-    width: 1000px;
+    height: 600px !important;
+    max-width: 40rem !important;
   }
 
   .hero-image {
     width: 200px !important;
   }
-
-  .timeline{
-    display: grid !important;
-    grid-template-columns: 2 !important;
-    grid-template-rows: 3 !important;
+  .timeline {
+    display: flex !important;
+    flex-wrap: wrap !important;
   }
 
-  .a{
+  .timeline-item {
+    justify-content: normal !important;
+  }
 
+  #thirdColumn {
+    margin-top: -19rem !important;
+  }
+
+  #fifthCol {
+    margin-top: -7rem !important;
+  }
+
+  figure.image-moon-1 {
+    width: 340px !important;
+  }
+
+  figure.image-moon-2 {
+    width: 777px;
+  }
+
+  figure.image-moon-3 {
+    width: 777px;
+  }
+
+  figure.image.moon-4 {
+    width: 80%;
+  }
+
+  figure.image.moon-5 {
+    width: 335px;
+  }
+
+  figure.image.moon-6 {
+    width: 777px;
+  }
+
+  figure.image.moon-7 {
+    width: 500px;
+  }
+
+  figure.image.moon-8 {
+    width: 600px;
+  }
+
+  figure.image.moon-9 {
+    width: 333px;
+  }
+
+  figure.image.moon-10 {
+    width: 777px;
+  }
+
+  .gallery-photo figure {
+    background-position: 60%;
+  }
+
+  #firstGalleryPhoto {
+    width: 333px;
+    float: left !important;
+  }
+
+  #secondGalleryPhoto {
+    width: 777px;
+  }
+
+  #thirdGalleryPhoto {
+    width: 777px;
+    float: left !important;
+  }
+
+  #fourthGalleryPhoto {
+    width: 333px;
+  }
+
+  #fifthGalleryPhoto {
+    width: 333px;
+    float: left !important;
+  }
+
+  #sixthGalleryPhoto {
+    width: 777px;
+  }
+
+  #seventhGalleryPhoto {
+    width: 600px;
+    float: left !important;
+  }
+
+  #eigthGalleryPhoto {
+    width: 510px;
+  }
+
+  #ninthGalleryPhoto {
+    width: 333px;
+    float: left !important;
+  }
+
+  #tenthGalleryPhoto {
+    width: 777px;
   }
 }
 
 @media only screen and (max-width: 1067px) {
-   .box:first-child {
-    order: 1;
+  a {
+    color: #fff;
   }
 
-  .box:nth-of-type(2) {
+  .timeline {
+    height: 325rem;
   }
 
-  .box:nth-of-type(3) {
-    order: 4;
-    background-color:green
+  .timeline-item:nth-of-type(2) {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+
+  .hero.hero-unit-final-frontier{
+    width:25rem;
   }
 
-  .box:nth-of-type(4) {
-    order: 3;
+  .hero-unit-final-frontier .hero-image {
+    background-size: 28rem 28rem;
   }
 
-  .box:nth-of-type(5) {
-    order: 2;
+  .hero-unit-moon-exploration .hero-image {
+    background-size: 28rem 28rem;
   }
 
-  .box:nth-of-type(6) {
-    order: 1;
-  } */
+  .gallery{
+    margin-top:25rem;
+    margin-left:2%;
+  }
+
+  .container{
+    padding-right:0;
+    padding-left:15px;
+    padding-right:15px;
+  }
+
+  #galleryContainer{
+    margin-top:12rem;
+  }
 }
